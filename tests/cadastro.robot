@@ -11,6 +11,6 @@ Cadastro com sucesso
     [Documentation]    Este teste valida o cadastro com sucesso
     Log    Iniciando o teste de cadastro
     Click Element    //android.widget.TextView[@text="Login"]
-    Wait Until Element Is Visible    //android.widget.TextView[@text="Sign up"]
+    Wait Until Element Is Visible    //android.widget.TextView[@text="Sign up"]    5s
     Click Element    //android.widget.TextView[@text="Sign up"]
     Sleep    5

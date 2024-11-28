@@ -15,4 +15,5 @@ Iniciar sessão
     Sleep    5
 
 Fechar sessão
+    Capture Page Screenshot
     Close Application
