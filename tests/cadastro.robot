@@ -10,5 +10,7 @@ Test Teardown     Fechar sessão
 Cadastro com sucesso
     [Documentation]    Este teste valida o cadastro com sucesso
     Log    Iniciando o teste de cadastro
-    # Aqui você incluirá os passos do seu teste, como preencher um formulário e verificar uma mensagem de sucesso
-    Log    Cadastro realizado com sucesso
+    Click Element    //android.widget.TextView[@text="Login"]
+    Wait Until Element Is Visible    //android.widget.TextView[@text="Sign up"]
+    Click Element    //android.widget.TextView[@text="Sign up"]
+    Sleep    5
